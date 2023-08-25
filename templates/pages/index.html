@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+ {% load static %} 
+ {% block title %} || Home
+  {% endblock title %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <br>
+      <img src="{% static 'image/books.jpg' %}" class="w-100" />
+    </div>
+  </div>
+</div>
+<h1 class="text-center my-3">Welcome to BookStore</h1>
+{% endblock content %}
